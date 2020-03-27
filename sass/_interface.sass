@@ -1,0 +1,28 @@
+*
+    box-sizing: border-box
+body
+    font-family: "Exo 2"
+    font-weight: 300
+.container
+    max-width: 1170px
+    margin: auto
+@media (max-width: 1199px)
+    .container
+        max-width: 960px   
+@media (max-width: 991px)
+    .container
+        max-width: 750px
+@media (max-width: 768px)
+    .container
+        min-width: 100%
+        padding: 0 20px
+button:active, button:focus, div:focus, div:active
+    outline: none !important
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+button::-moz-focus-inner
+    border: 0 !important
+button
+    cursor: pointer
+    border: none
+    background-color: transparent
+    padding: 0
