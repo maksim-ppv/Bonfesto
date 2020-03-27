@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'Exo 2';
     src: local('Exo 2 Medium'), local('Exo-2-Medium'),
-        url('/fonts/Exo2-Medium.woff2') format('woff2'),
-        url('/fonts/Exo2-Medium.woff') format('woff'),
-        url('/fonts/Exo2-Medium.ttf') format('truetype');
+        url('./fonts/Exo2-Medium.woff2') format('woff2'),
+        url('./fonts/Exo2-Medium.woff') format('woff'),
+        url('./fonts/Exo2-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
   }
 
 
-  @font-face {
+@font-face {
     font-family: 'Helvetica Neue';
     src: local('Helvetica Neue Thin'), local('Helvetica-Neue-Thin'),
-        url('/fonts/HelveticaNeueCyr-Light.woff2') format('woff2'),
-        url('/fonts/HelveticaNeueCyr-Light.woff') format('woff'),
-        url('/fonts/HelveticaNeueCyr-Light.ttf') format('truetype');
+        url('./fonts/HelveticaNeueCyr-Light.woff2') format('woff2'),
+        url('./fonts/HelveticaNeueCyr-Light.woff') format('woff'),
+        url('./fonts/HelveticaNeueCyr-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
   }
